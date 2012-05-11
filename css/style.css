@@ -37,13 +37,20 @@ html, button, input, select, textarea { font-family: sans-serif; color: #222; }
 body { 
     margin: 0; 
     font-size: 1em; 
-    line-height: 1.4; 
-    margin:5px;
-    padding:5px;
+    margin:50px;
+    width:75%;
     }
 
-h1 {
+.main {
+    color: #000000;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
     }
+h2 {
+    color: #666666;
+}    
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate
