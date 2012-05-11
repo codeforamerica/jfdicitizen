@@ -1,4 +1,20 @@
 var COMMANDS = {
   "petition": "Sign a fucking petition!",
-  "librarycard": "Get a fucking library card!"
+  "librarycard": "Get a fucking library card!",
+  "supercomputer": "Enlist the help of fucking data scientists with massive super computers to analyze massive civic data sets in new and creative fucking ways!!!!",
+  "office": "RUN FOR MOTHER-FUCKING OFFICE, yo!",
+  "tweet": "Take pictures of cool fucking things in your city that you like and TWEET about them.",
+  "follow": "Sign up to follow your city on twitter already!",
+  "parks": "Volunteer to keep your local park clean. Love the fucking green spaces the city provides for your lazy ass",
+  "transit": "Ride the fucking public transit",
+  "cyclists": "Give cyclists a high-fucking-five, they're keeping your air clean",
+  "pothole": "You see that fucking pothole?  Report that shit to 311 already!",
+  "donor": "You're not an organ donor?  Are you fucking kidding me?",
+  "vote":"Vote at your local fucking elections",
+  "register":"Fucking register to vote already!",
+  "meetings":"Show up at your boring ass city hall meetings",  
+  "shelter":"Why don't you fucking volunteer at the 14th Street Shelter?",  
+  "hydrant":"Why don't you adopt a fire hydrant this winter?",  
+  "meet":"Meet your neighbors already",  
+  "busdriver":"Did the bus get there on time? Thank the driver for picking your ass up",  
 }
