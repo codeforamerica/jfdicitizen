@@ -42,6 +42,10 @@ body {
     padding:5px;
     }
 
+h1 {
+    height:200px;
+    position:relative;
+    }
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate
