@@ -16,5 +16,6 @@ var COMMANDS = {
   "shelter":"Why don't you fucking volunteer at the 14th Street Shelter?",  
   "hydrant":"Why don't you adopt a fire hydrant this winter?",  
   "meet":"Meet your neighbors already",  
-  "busdriver":"Did the bus get there on time? Thank the driver for picking your ass up",  
+  "busdriver":"Did the bus get there on time? Thank the driver for picking your ass up",
+  "trash": "Throw your trash in the fucking can and not on the fucking ground!"
 }
