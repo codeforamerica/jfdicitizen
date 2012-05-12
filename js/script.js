@@ -46,6 +46,7 @@ $(document).ready(function() {
   // Add our mode switch
   $('body > footer').append('<div id="mode"><input name="modeCheckbox" value="true" type="checkbox"><span>' + STRINGS.modeCheckbox[MODE] + '</span></div>');
   
+  // when the checkbox is clicked
   $('input[name=modeCheckbox]').click(function(event) {
     if (this.checked) {
       MODE = 'dirty';
@@ -60,7 +61,20 @@ $(document).ready(function() {
     $('h1#swears').html(COMMANDS[commandId][MODE]);
   })
   
-})
+  // When someone presses the forward/back button
+  // Internet Explorer 8, Firefox 3.6+, and Chrome 5+ ONLY
+  $(window).bind( 'hashchange', function(event) {
+    commandId = window.location.hash.slice(1);
+    
+    // if there is a hash AND that hash matches a command, load the command associated with it
+    if (commandId && COMMANDS[commandId]) {
+      $('h1#swears').html(COMMANDS[commandId][MODE]);
+    }
+    else {
+      commandId = getRandomCommand(MODE)
+    }
+  });
+});
 
 function getRandomCommand(mode) {
   commandId = pickRandomProperty(COMMANDS);
