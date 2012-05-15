@@ -3,13 +3,14 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+  <codeforamerica>: <fellows: emily wright, ben sheldon, jim craner>
+  Site:codeforamerica.org   
+  Twitter:@codeforamerica
+  Location:san francisco
 
 /* THANKS */
-  Names (& URL):
+  Names (& URL):emily wright @emilyville emilyville.com
+  ben sheldon @bensheldon
 
 /* SITE */
   Standards: HTML5, CSS3

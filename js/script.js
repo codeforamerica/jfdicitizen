@@ -8,7 +8,7 @@ $(document).ready(function() {
   
   var STRINGS = {
     'intro': {
-      'clean': 'Sir, you would like to be a better citizen. Perhaps you might...',
+      'clean': 'So, you\'d like to be a better citizen. Perhaps you might...',
       'dirty': 'So you want to be a better citizen, finally. How about you...'
     },
     "next": {
